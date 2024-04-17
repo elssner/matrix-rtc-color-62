@@ -4,6 +4,10 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
 input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     rtcpcf85063tp.writeDateTime(rtcpcf85063tp.rtcpcf85063tp_eADDR(rtcpcf85063tp.eADDR.RTC_x51), rtcpcf85063tp.rtcpcf85063tp_eRegister(rtcpcf85063tp.eRegister.Sekunde), [0, 1 + rtcpcf85063tp.getByte(rtcpcf85063tp.rtcpcf85063tp_eRegister(rtcpcf85063tp.eRegister.Minute), rtcpcf85063tp.eFormat.DEC)])
 })
+function _ () {
+    matrix.comment("elssner/matrix-rtc-color-62")
+    matrix.comment("3 Erweiterungen: calliope-net/matrix, calliope-net/rtc-uhr, mkleinsb/pxt-callicolor")
+}
 let rgbSekunde = 0
 matrix.init(matrix.ePages.y64)
 matrix.displayMatrix()

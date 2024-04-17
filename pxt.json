@@ -5,7 +5,8 @@
         "core": "*",
         "v2": "*",
         "rtc-uhr": "github:calliope-net/rtc-uhr#v2.1.1",
-        "matrix": "github:calliope-net/matrix#v0.0.17"
+        "matrix": "github:calliope-net/matrix#v0.2.46",
+        "pxt-callicolor": "github:mkleinsb/pxt-callicolor#v0.3.4"
     },
     "files": [
         "main.blocks",

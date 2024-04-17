@@ -28,7 +28,7 @@
         "config": {
             "microbit-dal": {
                 "bluetooth": {
-                    "device_info_service": 0
+                    "partial_flashing": 0
                 }
             }
         }
